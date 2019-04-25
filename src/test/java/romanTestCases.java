@@ -4,11 +4,7 @@ import romanNumerals.RomanNumerals;
 
 public class romanTestCases /*extends TestCase*/ {
 
-    /*@Override
-    protected void setUp() throws Exception {
-        super.setUp();
-        rn = new RomanNumerals();
-    }*/
+
 
     int testNum;
     String testString;
@@ -47,6 +43,11 @@ public class romanTestCases /*extends TestCase*/ {
         testNum = rn.numeralToNumbers("MCMXLV");
         Assert.assertEquals(1945, testNum);
     }
+    //For Some reason, the code does NOT remove "CM" and "IV" and retains the full string
+    @Test
+    public void getNinteenSixtyFour(){
+        Assert.assertEquals(1964,rn.numeralToNumbers("MCMLXIV"));
+    }
 
     @Test
     public void getMCMXCII(){
@@ -67,5 +68,10 @@ public class romanTestCases /*extends TestCase*/ {
     public void getMCMXLV(){
         testString = rn.numberToNumeral(1945);
         Assert.assertEquals("MCMXLV",testString);
+    }
+    @Test
+    public void getNegativeIn(){
+        testString = rn.numberToNumeral(-1);
+        Assert.assertEquals("",testString);
     }
 }

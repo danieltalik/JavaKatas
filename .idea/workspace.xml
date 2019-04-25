@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94a96df6-33c5-469e-8a45-a5175d5dc11b" name="Default Changelist" comment="" />
+    <list default="true" id="94a96df6-33c5-469e-8a45-a5175d5dc11b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Potter/BookSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BookSale/BookSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/romanNumerals/RomanNumerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/romanNumerals/RomanNumerals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/romanTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/romanTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Potter/BookSale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/romanNumerals/RomanNumerals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/romanNumerals/RomanNumerals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/romanTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/romanTestCases.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +23,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/romanNumerals/RomanNumerals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
+            <state relative-caret-position="1581">
+              <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#426#434#0" expanded="true" />
+                <element signature="e#487#495#0" expanded="true" />
+                <element signature="e#543#551#0" expanded="true" />
+                <element signature="e#1563#1574#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -24,8 +39,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/romanTestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1185#1186#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runners/model/FrameworkMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#697#891#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/bookTestCases.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,10 +85,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="399">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runners/ParentRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="150" selection-start-line="150" selection-end-line="150" />
+              <folding>
+                <element signature="e#1707#1708#0" expanded="true" />
+                <element signature="e#1759#1760#0" expanded="true" />
+                <element signature="e#3673#3808#0" expanded="true" />
+                <element signature="e#3807#3808#0" expanded="true" />
+                <element signature="e#4043#4191#0" expanded="true" />
+                <element signature="e#4190#4191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runner/JUnitCore.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="110" selection-start-line="110" selection-end-line="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -50,6 +136,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GroovyConsoleState">
     <option name="list">
@@ -72,6 +161,10 @@
         <option value="$PROJECT_DIR$/src/test/java/testCases.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/potterTestCases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BookSale/BookReadme.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/bookTestCases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BookSale/BookSale.java" />
         <option value="$PROJECT_DIR$/src/test/java/romanTestCases.java" />
         <option value="$PROJECT_DIR$/src/main/java/romanNumerals/RomanNumerals.java" />
       </list>
@@ -84,10 +177,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1044" />
+    <option name="x" value="1833" />
+    <option name="y" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -95,6 +188,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,6 +220,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BookSale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="romanNumerals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -145,12 +247,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556060394528" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556220632532" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,9 +266,11 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.romanTestCases">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="bookTestCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Katas" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="bookTestCases" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,16 +280,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="romanTestCases" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="romanTestCases.getMCMXCII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Katas" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="romanTestCases" />
-      <option name="METHOD_NAME" value="getMCMXCII" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,11 +294,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testCases.getNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="romanTestCases.getNinteenFortyFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Katas" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testCases" />
-      <option name="METHOD_NAME" value="getNumber" />
+      <option name="MAIN_CLASS_NAME" value="romanTestCases" />
+      <option name="METHOD_NAME" value="getNinteenFortyFour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="romanTestCases.getNinteenSixtyFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Katas" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="romanTestCases" />
+      <option name="METHOD_NAME" value="getNinteenSixtyFour" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,10 +317,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.romanTestCases" />
-        <item itemvalue="JUnit.romanTestCases.getMCMXCII" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.romanTestCases.getNinteenSixtyFour" />
         <item itemvalue="JUnit.romanTestCases.getNinteenFortyFive" />
-        <item itemvalue="JUnit.testCases.getNumber" />
+        <item itemvalue="JUnit.romanTestCases.getNinteenFortyFour" />
+        <item itemvalue="JUnit.bookTestCases" />
       </list>
     </recent_temporary>
   </component>
@@ -235,41 +338,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="romanTestCases_getNinteenFortyFive - 2019.04.23 at 17h 08m 22s.xml">
-      <configuration name="romanTestCases.getNinteenFortyFive" configurationId="JUnit" />
+    <history-entry file="romanTestCases_getNinteenSixtyFour - 2019.04.25 at 14h 26m 39s.xml">
+      <configuration name="romanTestCases.getNinteenSixtyFour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="romanTestCases_getNinteenFortyFive - 2019.04.23 at 17h 11m 12s.xml">
-      <configuration name="romanTestCases.getNinteenFortyFive" configurationId="JUnit" />
+    <history-entry file="romanTestCases_getNinteenSixtyFour - 2019.04.25 at 14h 27m 29s.xml">
+      <configuration name="romanTestCases.getNinteenSixtyFour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="romanTestCases - 2019.04.23 at 17h 11m 46s.xml">
+    <history-entry file="romanTestCases_getNinteenSixtyFour - 2019.04.25 at 14h 28m 26s.xml">
+      <configuration name="romanTestCases.getNinteenSixtyFour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="romanTestCases_getNinteenSixtyFour - 2019.04.25 at 14h 30m 02s.xml">
+      <configuration name="romanTestCases.getNinteenSixtyFour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="romanTestCases - 2019.04.25 at 14h 30m 16s.xml">
       <configuration name="romanTestCases" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="romanTestCases - 2019.04.23 at 17h 48m 05s.xml">
+    <history-entry file="romanTestCases - 2019.04.25 at 14h 39m 21s.xml">
       <configuration name="romanTestCases" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="romanTestCases - 2019.04.23 at 17h 51m 59s.xml">
+    <history-entry file="romanTestCases - 2019.04.25 at 14h 59m 10s.xml">
       <configuration name="romanTestCases" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="romanTestCases_getMCMXCII - 2019.04.23 at 17h 52m 25s.xml">
-      <configuration name="romanTestCases.getMCMXCII" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="romanTestCases_getMCMXCII - 2019.04.23 at 17h 57m 45s.xml">
-      <configuration name="romanTestCases.getMCMXCII" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="romanTestCases - 2019.04.23 at 17h 58m 04s.xml">
+    <history-entry file="romanTestCases - 2019.04.25 at 15h 04m 20s.xml">
       <configuration name="romanTestCases" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="romanTestCases - 2019.04.23 at 18h 00m 03s.xml">
+    <history-entry file="romanTestCases - 2019.04.25 at 15h 09m 12s.xml">
       <configuration name="romanTestCases" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="romanTestCases - 2019.04.23 at 18h 37m 57s.xml">
+    <history-entry file="romanTestCases - 2019.04.25 at 15h 30m 15s.xml">
       <configuration name="romanTestCases" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6230366" visible="true" weight="0.24048583" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6230366" visible="true" weight="0.12686567" />
       <window_info id="Structure" order="1" sideWeight="0.37696335" side_tool="true" weight="0.1757085" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -279,15 +382,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5612789" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36944938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.283857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22426869" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3232682" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3206934" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,13 +476,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console_3.snippet">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Potter/BookSale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Employee/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -460,47 +556,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runners/ParentRunner.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BookSale/BookSale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#1707#1708#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#4043#4191#0" expanded="true" />
-            <element signature="e#4190#4191#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BookSale/BookReadme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/romanNumerals/RomanNumerals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/romanTestCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="126" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="126" />
         </state>
       </provider>
     </entry>
@@ -508,6 +574,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#697#891#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+          <folding>
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#3673#3808#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
+            <element signature="e#4043#4191#0" expanded="true" />
+            <element signature="e#4190#4191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bookTestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/romanTestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/romanNumerals/RomanNumerals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#426#434#0" expanded="true" />
+            <element signature="e#487#495#0" expanded="true" />
+            <element signature="e#543#551#0" expanded="true" />
+            <element signature="e#1563#1574#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
