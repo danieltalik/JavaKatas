@@ -1,73 +1,50 @@
 package romanNumerals;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class RomanNumerals {
 
-    String[] romanNumerals = new String[]{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I", ""};
-    Integer[] arabicNumerals = new Integer[]{1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1, 0};
-    List<String> romanNums = new ArrayList<String>();
-    List<String> doubleRoman = new ArrayList<String>();
-    List<String> singleRoman = new ArrayList<String>();
-    List<Integer> doubleArabic = new ArrayList<Integer>();
-    List<Integer> singleArabic = new ArrayList<Integer>();
 
-    //I COULD have just made everything a list. But I wanted to practice loop iteration
-    public RomanNumerals() {
-        //Adds congruent lists of Arabic and Roman numbers in separate lists with the same indices
+    //Set up 2 string arrays for single and double char numeral groupings and 2 int arrays for their corresponding values
+    String[] doubleRoman = new String[]{"CM", "CD", "XC", "XL", "IX", "IV",};
+    String[] singleRoman = new String[]{"M", "D", "C", "L", "X", "V", "I", ""};
+    int[] doubleArabic = new int[]{900, 400, 90, 40, 9, 4};
+    int[] singleArabic = new int[]{1000, 500, 100, 50, 10, 5, 1, 0};
 
-        //Add single character numerals which start at index 0 and iterate every other array item
-        for (int i = 0; i < romanNumerals.length - 1; i += 2) {
-            singleRoman.add(romanNumerals[i]);
-            singleArabic.add(arabicNumerals[i]);
-        }
-        //Start at index 1 and add every other one for double character numerals
-        for (int i = 1; i < romanNumerals.length - 1; i += 2) {
-            doubleRoman.add(romanNumerals[i]);
-            doubleArabic.add(arabicNumerals[i]);
-        }
-    }
 
     public int numeralToNumbers(String numeral) {
 
         int number = 0;
         String append;
         List<Character> numList = new ArrayList<Character>();
-        //Takes the string, converts to a char array, and populates a list to manipulate
+
+        //Takes the string, converts to a char array, and populates a list for manipulation
         for (char c : numeral.toCharArray()) {
             numList.add(c);
         }
+        //Loops through the double char numerals array
+        for (int i = numeral.length(); i > 1; i--) {
 
-        //Checks if the numerals list contains the numeral and returns the corresponding number from the number array
-        if (romanNums.contains(numeral)) {
-            int i = romanNums.indexOf(numeral);
-            number = arabicNumerals[i];
-        }
-        //If it is not in the list, it contains more than one numeral
-        else {
-            /*Iterates backwards and removes the char sets from the char list
-              and adds the corresponding values to the number
-             */
-            for (int i = numeral.length(); i > 1; i--) {
-
-                if (doubleRoman.contains(numeral.substring(i - 2, i))) {
-                    int j = doubleRoman.indexOf(numeral.substring(i - 2, i));
-                    number += doubleArabic.get(j);
-                    //Removes the double char set from the list
-                    numList.remove(i - 1);
-                    numList.remove(i - 2);
-                }
+            //TODO: Refine to match in array form vs converting to a list
+            if (Arrays.asList(doubleRoman).contains(numeral.substring(i - 2, i))) {
+                int j = Arrays.asList(doubleRoman).indexOf(numeral.substring(i - 2, i));
+                number += doubleArabic[j];
+                //Removes the double char set from the list
+                numList.remove(i - 1);
+                numList.remove(i - 2);
             }
-            //append is the char list with the pairs removed and converted to a string
-            append = numList.toString();
+        }
+        //append is the char list with the pairs removed and converted to a string
+        append = numList.toString();
 
-            //Looks for and adds the remaining single char numerals and adds its matching value
-            for (int i = 0; i < append.length(); i++) {
-                if (singleRoman.contains(append.substring(i, i + 1))) {
-                    int j = singleRoman.indexOf(append.substring(i, i + 1));
-                    number += singleArabic.get(j);
-                }
+        //Looks for and adds the remaining single char numerals and adds its matching value
+        for (int i = 0; i < append.length(); i++) {
+            //TODO: Refine to match in array form vs converting to a list
+            if (Arrays.asList(singleRoman).contains(append.substring(i, i + 1))) {
+                int j = Arrays.asList(singleRoman).indexOf(append.substring(i, i + 1));
+                number += singleArabic[j];
             }
         }
         return number;

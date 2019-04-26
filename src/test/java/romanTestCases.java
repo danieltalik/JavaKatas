@@ -14,6 +14,8 @@ public class romanTestCases /*extends TestCase*/ {
     public void getZero() {
         testNum = rn.numeralToNumbers("");
         Assert.assertEquals(0, testNum);
+        testNum = rn.numeralToNumbers("JK");
+        Assert.assertEquals(0,testNum);
 
     }
 
